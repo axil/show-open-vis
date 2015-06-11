@@ -1,4 +1,6 @@
+#SingleInstance force
+#IfWinActive ahk_class LVDChild
 ^Tab::
 Send ^{Space}
-Sleep 150
+WinWait Quick Drop
 Send ^4
