@@ -1,14 +1,21 @@
-Installation
+## Installation
 
-Copy "Show Open VIs.vi" and "Show Open VIs" to 
+Copy "Show Open VIs.vi" file and "Show Open VIs" dir to 
 
-<My Documents>\LabVIEW Data\Quick Drop Plugins
+\<My Documents\>\LabVIEW Data\Quick Drop Plugins
 
-Dependencies
+or use install.py to do it automatically. 
 
-OpenG File Library (needs free JKI VI Packet Manager to install http://jki.net/vipm)
+That adds the plugin to all installed LabView versions.
 
-Launch
+Labview restart is not necessary.
 
-Ctrl-Space to open QuickDrop
-Ctrl-W to run the plugin (can be remapped to another key, and must be if Ctrl-W is already taken by another plugin)
+## Dependencies
+
+OpenG File Library (install using free [JKI VI Packet Manager](http://jki.net/vipm))
+
+## Launch
+
+Ctrl-Space to open QuickDrop then Ctrl-4 to run the plugin (can be remaped to Ctrl-Space Ctrl-\<another letter\>) or just 
+
+Ctrl-` using ctrlbacktick.ahk script (needs [autohotkey](http://www.autohotkey.com/) installed)
